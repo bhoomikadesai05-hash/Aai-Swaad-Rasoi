@@ -1,7 +1,6 @@
 import React from 'react';
 import { Utensils, Heart, Mail, Phone, MapPin, Compass, ShieldAlert, Instagram } from 'lucide-react';
-
-const LogoImage = '/src/assets/images/aaiswaad_rasoi_logo_1781703038677.jpg';
+import logoImg from '../assets/images/logo.jpg';
 
 interface FooterProps {
   onTabChange: (tab: 'home' | 'menu' | 'corporate' | 'contact' | 'admin') => void;
@@ -20,7 +19,7 @@ export default function Footer({ onTabChange }: FooterProps) {
             <div className="flex items-center space-x-3">
               <div className="relative w-11 h-11 rounded-full overflow-hidden border-2 border-amber-400 shrink-0">
                 <img 
-                  src={LogoImage} 
+                  src={logoImg} 
                   alt="Aaiswaad Rasoi Logo" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
