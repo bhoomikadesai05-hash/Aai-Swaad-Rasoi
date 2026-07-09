@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, Star, Heart, Flame, Shield, Truck, Sparkles, Building2 } from 'lucide-react';
+import logoImg from '../assets/images/logo.jpg';
 
-const LogoImage = '/src/assets/images/aaiswaad_rasoi_logo_1781703038677.jpg';
 
 interface HeroProps {
   onOrderNowClick: () => void;
@@ -115,8 +115,8 @@ export default function Hero({ onOrderNowClick, onExploreCorporateClick }: HeroP
 
               {/* Central Circle Graphic representing logo */}
               <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white shadow-2xl bg-amber-100 select-none group">
-                <img 
-                  src={LogoImage} 
+                <img
+  		  src={logoImg} 
                   alt="Aaiswaad Rasoi Logo - Traditional Cooking" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                   referrerPolicy="no-referrer"
