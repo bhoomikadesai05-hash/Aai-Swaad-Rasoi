@@ -1,7 +1,6 @@
 import React from 'react';
 import { ShoppingBag, Utensils, Phone, Clock, MapPin, ShieldAlert, Award } from 'lucide-react';
-
-const LogoImage = '/src/assets/images/aaiswaad_rasoi_logo_1781703038677.jpg';
+import logoImg from '../assets/images/logo.jpg';
 
 interface HeaderProps {
   cartCount: number;
@@ -47,8 +46,8 @@ export default function Header({
             id="brand-logo"
           >
             <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-amber-400 group-hover:scale-105 transition-transform">
-              <img 
-                src={LogoImage} 
+              <img
+  		src={logoImg}
                 alt="Aaiswaad Rasoi Logo" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
