@@ -1,0 +1,6 @@
+{
+  "name": "Aaiswaad Rasoi",
+  "description": "Authentic Karnataka meals delivery in Pune and Pimpri-Chinchwad, including chapati palle, roti, and full/half meals for individuals and corporates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
